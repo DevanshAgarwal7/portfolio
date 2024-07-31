@@ -4,7 +4,7 @@ import { Container, Navbar } from "react-bootstrap";
 function Navigation() {
     return (
         <React.Fragment>
-            {/* <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+            <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <ul class="nav nav-pills">
                     <li class="nav-item">
@@ -24,47 +24,8 @@ function Navigation() {
                 <h4 id="scrollspyHeading2">Second heading</h4>
                 <p>...</p>
                 <p>...</p>
-            </div> */}
-             <Navbar className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#home">Brand link</Navbar.Brand>
-        </Container>
-      </Navbar>
-      <br />
-      <Navbar className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand>Brand text</Navbar.Brand>
-        </Container>
-      </Navbar>
-      <br />
-      <Navbar className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#home">
-            <img
-              src="/img/logo.svg"
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
-            />
-          </Navbar.Brand>
-        </Container>
-      </Navbar>
-      <br />
-      <Navbar className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#home">
-            <img
-              alt=""
-              src="/img/logo.svg"
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            />{' '}
-            React Bootstrap
-          </Navbar.Brand>
-        </Container>
-      </Navbar>
+            </div>
+
         </React.Fragment>
     );
 }

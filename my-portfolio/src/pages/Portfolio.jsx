@@ -1,10 +1,12 @@
 import React from "react";
 import { Navbar } from "react-bootstrap";
+import Introduction from "../components/Introduction";
 
 function Portfolio() {
     return ( 
         <React.Fragment>
-            <Navbar />
+            {/* <Navbar /> */}
+            <Introduction />
         </React.Fragment>
      );
 }
