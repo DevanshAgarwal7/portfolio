@@ -42,3 +42,15 @@
         font-size: large;
     }
 }
+
+@media(max-width: 351px){
+    .intro-content{
+        font-size: 1rem;
+    }
+    .intro-role{
+        font-size: 0.9rem;
+    }
+    .intro-summary{
+        font-size: medium;
+    }
+}

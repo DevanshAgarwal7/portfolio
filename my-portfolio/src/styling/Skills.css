@@ -1,0 +1,28 @@
+.skills_component{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding-left: 6vw;
+    height: auto;
+}
+.skill{
+    transition: transform 0.3s;
+    margin-right: 10px;
+    background-color: yellow;
+    border-radius: 1rem;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    overflow: hidden;
+}
+.skill:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 1072px){
+    .skills_component{
+        padding-left: 15vw;
+    }
+    .skill{
+        font-size: small;
+    }
+}
