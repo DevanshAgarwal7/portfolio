@@ -1,0 +1,58 @@
+.footer_component{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding-top: 50px;
+}
+.footer_flex{
+    width: 100%;
+}
+.footer_flex_item_1 {
+    width: 50%;
+    position: relative; /* Ensure the pseudo-element is positioned relative to this element */
+}
+
+.footer_flex_item_1::after {
+    content: '';
+    position: absolute;
+    top: 10%; /* Adjust the top offset to center the border vertically */
+    right: 0;
+    width: 2px; /* Width of the right border */
+    height: 80%; /* Height of the right border, set to 80% */
+    background-color: yellow; /* Same color as the border */
+}
+.footer_flex_item_1_form{
+    width: 100%;
+}
+.footer_flex_item_1_form-item{
+    width: 70%;
+}
+.mandatory_mark{
+    color: red;
+}
+.footer_flex_item_2{
+    width: 40%;
+}
+.form_button{
+    margin-right: 20px;
+}
+.form_message{
+    text-align: center;
+    color: red;
+}
+
+@media (max-width: 647px){
+    .footer_flex_item_1{
+        width: 100%;
+    }
+    .footer_flex_item_1::after {
+        top: auto; /* Reset top */
+        right: auto; /* Reset right */
+        bottom: 0; /* Position at the bottom */
+        left: 10%; /* Adjust the left offset to center the border horizontally */
+        width: 80%; /* Width of the bottom border, set to 80% */
+        height: 2px; /* Height of the bottom border */
+    }
+    .footer_flex_item_2{
+        width: 100%;
+    }
+}

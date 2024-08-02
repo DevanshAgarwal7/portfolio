@@ -3,7 +3,7 @@
     color: white;
 }
 .content-flex-item{
-    width: 70vw;
+    width: 65vw;
 }
 .intro-content{
     font-size: 2rem;
@@ -39,7 +39,7 @@
         font-size: 1.05rem;
     }
     .intro-summary{
-        font-size: large;
+        font-size: medium;
     }
 }
 
