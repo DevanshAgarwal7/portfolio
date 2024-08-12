@@ -7,7 +7,7 @@ function Skills() {
     return (
         <React.Fragment>
             <div className="skills_component">
-                <h2>Skills Set<Cursor /></h2>
+                <h2>Skills<Cursor /></h2>
                 <div className="skills_defined">
                 <div class="container overflow-hidden text-center">
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-3 justify-content-center">
