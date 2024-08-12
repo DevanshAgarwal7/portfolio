@@ -1,0 +1,49 @@
+.workexperience_Component{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding-left: 6vw;
+    height: auto;
+}
+.workexperience_div{
+    width: 93%;
+    margin-bottom: 1vw;
+}
+.each_workexperience_div{
+    margin-bottom: 2vw;
+}
+.each_workexperience_header{
+    background-color: rgb(30, 30, 30);
+    color: yellow;
+    border-bottom: 0.01rem solid white;
+}
+.each_workexperience_header_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.each_work_experience_designation{
+    margin-top: -20px;  
+}
+.each_workexperience_body{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+.each_work_experience_each_deacription_listitem::marker{
+    color: yellow;
+}
+
+@media (max-width: 540px){
+    .each_workexperience_div{
+        margin-bottom: 5vw;
+    }
+    .each_workexperience_header_flex{
+        flex-direction: column;
+        align-items: start;
+    }
+    .each_work_experience_timeline{
+        margin-top: -15px;  
+    }
+}

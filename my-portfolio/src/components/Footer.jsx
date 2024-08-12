@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import '../styling/Footer.css';
-import { Cursor } from "react-simple-typewriter";
 
 function Footer() {
     const contactInformation = {
@@ -92,7 +91,7 @@ function Footer() {
                     </div>
                     <div className="p-2 mx-4 footer_flex_item_2">
                         <div className="d-flex flex-column justify-content-center align-items-center">
-                            <h6 style={{ color: "yellow" }}>Contact Details<Cursor /></h6>
+                            <h6 style={{ color: "yellow" }}>Contact Details</h6>
                             <div>
                                 <strong style={{ color: "yellow" }}>Address: </strong>{contactInformation.address}
                             </div>
@@ -102,7 +101,7 @@ function Footer() {
                             <div>
                                 <strong style={{ color: "yellow" }}>Mobile Number : </strong>+91 78358-97704
                             </div>
-                            <h6 className="mt-2" style={{ color: "yellow" }}>Quick Links<Cursor /></h6>
+                            <h6 className="mt-2" style={{ color: "yellow" }}>Quick Links</h6>
                             <div>
                                 <div className="d-flex flex-row justify-content-center align-items-center">
                                     <div className="p-2 px-3 mail">
