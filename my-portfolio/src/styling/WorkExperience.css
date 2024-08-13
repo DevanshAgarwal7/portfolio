@@ -12,26 +12,29 @@
     margin-bottom: 2vw;
 }
 .each_workexperience_header{
-    background-color: rgb(30, 30, 30);
-    color: yellow;
-    border-bottom: 0.01rem solid white;
+    /* background-color: rgb(30, 30, 30); */
+    /* border-bottom: 0.01rem solid white; */
 }
 .each_workexperience_header_flex{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    /* color: yellow; */
 }
 .each_work_experience_designation{
-    margin-top: -20px;  
+    margin-top: -20px; 
+    /* color: yellow;  */
 }
 .each_workexperience_body{
     padding-left: 5%;
     padding-right: 5%;
     background-color: rgb(30, 30, 30);
+}
+.each_work_experience_each_description_listitem{
     color: white;
 }
-.each_work_experience_each_deacription_listitem::marker{
+.each_work_experience_each_description_listitem::marker{
     color: yellow;
 }
 

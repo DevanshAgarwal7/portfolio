@@ -45,7 +45,7 @@ function WorkExperience() {
                                 <div class="card-body each_workexperience_body">
                                     <ul>
                                         {experience.description.map((description, idx) => (
-                                            <li key={idx} className="each_work_experience_each_deacription_listitem">{description}</li>
+                                            <li key={idx} className="each_work_experience_each_description_listitem">{description}</li>
                                         ))}
                                     </ul>
                                 </div>
