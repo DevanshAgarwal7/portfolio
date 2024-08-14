@@ -59,31 +59,6 @@ function WorkExperience() {
                             </div>
                         );
                     })}
-                    {/* <div class="card">
-                        <div class="card-header">
-                            <div className="d-flex flex-row justify-content-between align-items-center">
-                                <div className="p-2 mx-5"><h6>Nagarro</h6></div>
-                                <div className="p-2 mx-5"><h6>March 2023 - Present</h6></div>
-                            </div>
-                            <div className="d-flex flex-row mb-1 justify-content-start align-items-center">
-                                <div className="p-2 mx-5">Associate Engineer</div>
-                            </div>
-                        </div>
-                        <div class="card-body workexperience_body">
-                            <ul>
-                                <li>Developed and optimized RESTful endpoints using Spring Boot,
-                                    resulting in improvement in overall application performance and a
-                                    seamless user experience with reduced response time.</li>
-                                <li>Hands-on with the concepts of Microservices, Microfrontends, Docker
-                                    and How teamwork in a collaborative way to develop a production-
-                                    ready application.</li>
-                                <li>Hands-on with the concepts of Amazon Web Services (AWS) and
-                                    Docker images. upload the Backend applications on EC2 services for
-                                    pre-production testing and used RDS, Elastic BeanStalk, and CDN
-                                    services for serving applications to users.</li>
-                            </ul>
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </React.Fragment>
