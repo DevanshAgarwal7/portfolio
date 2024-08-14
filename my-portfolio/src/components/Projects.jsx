@@ -54,14 +54,14 @@ function Projects() {
 
                                     <div className="col-6 project" key={index}>
                                         <div key={index} className="card each_project_grid_item_div">
-                                            <div class="card-header each_project_grid_item_header">
+                                            <div className="card-header each_project_grid_item_header">
                                                 <div className="d-flex flex-column mb-1 justify-content-center align-items-center">
                                                     <div className="p-2 mx-5"><h6>{projectDetail.projectName}</h6></div>
                                                     <div className="p-2 mx-5 each_project_grid_item_projectLink"><h6>{projectDetail.projectTechnology}</h6></div>
                                                     <div className="p-2 mx-5 each_project_grid_item_projectTechnology">{projectDetail.projectLink}</div>
                                                 </div>
                                             </div>
-                                            <div class="card-body each_project_grid_item_body">
+                                            <div className="card-body each_project_grid_item_body">
                                                 <ul>
                                                     {projectDetail.projectDescription.map((projectDescription, idx) => (
                                                         <li key={idx} className="each_project_grid_item_each_projectDescription_listitem">{projectDescription}</li>
