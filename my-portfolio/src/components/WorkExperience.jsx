@@ -9,6 +9,7 @@ function WorkExperience() {
             company: "Nagarro Software Private Limited",
             designation: "Associate Engineer",
             timeline: "March 2023 - Present",
+            workPlace: "Gurugram, Haryana, India",
             description: [
                 "Developed and optimized RESTful endpoints using Spring Boot, resulting in improvement in overall application performance and a seamless user experience with  response time.", "Hands-on with the concepts of Microservices, Microfrontends, Docker and How teamwork in a collaborative way to develop a production-ready application.",
                 "Hands-on with the concepts of Amazon Web Services (AWS) and Docker images. upload the Backend applications on EC2 services for pre-production testing and used RDS, Elastic BeanStalk, and CDN services for serving applications to users."
@@ -16,8 +17,9 @@ function WorkExperience() {
         },
         workExperience2: {
             company: "IIIT Allahabad",
-            designation: "Apprentineship",
+            designation: "Apprenticeship",
             timeline: "July 2022 - August 2022",
+            workPlace: "Remote",
             description: [
                 "Demonstrated proficiency in Object-Oriented Programming and work on popular Frameworks.", "Developed Result portal. The front end is developed in Angular and Backed is developed in Spring Boot.",
                 "Developed Restful End Points for Teachers and Students. Students can view their results by entering the Roll number and DOB. The teacher can update the marks of any student if needed."
@@ -38,8 +40,9 @@ function WorkExperience() {
                                         <div className="p-2 mx-5"><h6>{experience.company}</h6></div>
                                         <div className="p-2 mx-5 each_work_experience_timeline"><h6>{experience.timeline}</h6></div>
                                     </div>
-                                    <div className="d-flex flex-row mb-1 justify-content-start align-items-center">
+                                    <div className="d-flex flex-row mb-1 justify-content-between align-items-center flex-wrap">
                                         <div className="p-2 mx-5 each_work_experience_designation">{experience.designation}</div>
+                                        <div className="p-2 mx-5 each_work_experience_designation">{experience.workPlace}</div>
                                     </div>
                                 </div>
                                 <div class="card-body each_workexperience_body">

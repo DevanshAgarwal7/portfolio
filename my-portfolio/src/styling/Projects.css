@@ -1,13 +1,13 @@
-.skills_component{
+.project_component{
     background-color: rgb(30, 30, 30);
     color: white;
-    padding-left: 6vw;
+    /* padding-left: 6vw; */
     height: auto;
 }
-.skill{
+.project{
     transition: transform 0.3s;
     margin-right: 10px;
-    background-color: yellow;
+    background-color: red;
     border-radius: 1rem;
     border: 3px solid white;
     color: black;
@@ -15,13 +15,6 @@
     text-align: center;
     overflow: hidden;
 }
-.skill:hover {
-    transform: scale(1.1);
-    cursor: zoom-in;
-}
-
-@media (max-width: 1072px){
-    .skill{
-        font-size: small;
-    }
+.project:hover {
+    transform: scale(1.06);
 }

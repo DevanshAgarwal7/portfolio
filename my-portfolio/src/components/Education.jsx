@@ -35,14 +35,14 @@ function Education() {
                         const experience = educationDetails[key];
                         return (
                             <div key={index} className="card each_education_div">
-                                <div class="card-header each_education__header">
+                                <div class="card-header each_education_header">
                                     <div className=" each_education_header_flex">
                                         <div className="p-2 mx-5"><h6>{experience.collegeOrSchoolName}</h6></div>
                                         <div className="p-2 mx-5 each_education_timeline"><h6>{experience.timeline}</h6></div>
                                     </div>
                                     <div className="d-flex flex-row mb-1 justify-content-between align-items-center flex-wrap">
-                                        <div className="p-2 mx-5 each_education_detail">{experience.deparment}</div>
-                                        <div className="p-2 mx-5 each_education_detail">{experience.result}</div>
+                                        <div className="p-2 mx-5 each_education_department">{experience.deparment}</div>
+                                        <div className="p-2 mx-5 each_education_result">{experience.result}</div>
                                     </div>
                                 </div>
                                 <div class="card-body each_education_body">

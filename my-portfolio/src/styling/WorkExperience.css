@@ -9,22 +9,21 @@
     margin-bottom: 1vw;
 }
 .each_workexperience_div{
+    transition: transform 0.3s;
     margin-bottom: 2vw;
 }
-.each_workexperience_header{
-    /* background-color: rgb(30, 30, 30); */
-    /* border-bottom: 0.01rem solid white; */
+.each_workexperience_div:hover{
+    transform: scale(1.06);
+    cursor: zoom-in;
 }
 .each_workexperience_header_flex{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* color: yellow; */
 }
 .each_work_experience_designation{
     margin-top: -20px; 
-    /* color: yellow;  */
 }
 .each_workexperience_body{
     padding-left: 5%;
@@ -40,7 +39,11 @@
 
 @media (max-width: 540px){
     .each_workexperience_div{
-        margin-bottom: 5vw;
+        margin-bottom: 5vh;
+    }
+    .each_workexperience_div:hover{
+        margin-top: 5vh;
+        cursor: zoom-in;
     }
     .each_workexperience_header_flex{
         flex-direction: column;

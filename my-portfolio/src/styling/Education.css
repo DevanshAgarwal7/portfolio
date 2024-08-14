@@ -10,7 +10,12 @@
     margin-bottom: 1vh;
 }
 .each_education_div{
+    transition: transform 0.3s;
     margin-bottom: 2vw;
+}
+.each_education_div:hover{
+    transform: scale(1.06);
+    cursor: zoom-in;
 }
 .each_education_header{
     background-color: rgb(30, 30, 30);
@@ -23,8 +28,11 @@
     justify-content: space-between;
     align-items: center;
 }
-.each_education_detail{
-    margin-top: -20px;  
+.each_education_department{
+    margin-top: -20px;
+}
+.each_education_result{
+    margin-top: -20px;
 }
 .each_education_body{
     padding-left: 5%;
@@ -41,6 +49,10 @@
 @media (max-width: 540px){
     .each_education_div{
         margin-bottom: 5vw;
+    }
+    .each_education_div:hover{
+        margin-top: 5vh;
+        cursor: zoom-in;
     }
     .each_education_header_flex{
         flex-direction: column;
