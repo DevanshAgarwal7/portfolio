@@ -30,7 +30,7 @@ function Introduction() {
                     </div>
                     <div className="p-2">
                         <div className="card" style={{ border: "none", backgroundColor: "rgb(30, 30, 30)", color: "white" }}>
-                            <img src={profilePic} class="card-img-center profile-pic" alt="Profile Pic" />
+                            <img src={profilePic} className="card-img-center profile-pic" alt="Profile Pic" />
                         </div>
                     </div>
 

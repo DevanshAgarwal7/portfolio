@@ -7,13 +7,13 @@ function Skills() {
     return (
         <React.Fragment>
             <div className="skills_component">
-                <h2>Skills<Cursor /></h2>
+                <h2 style={{color: "yellow"}}>Skills<Cursor /></h2>
                 <div className="skills_defined">
-                <div class="container overflow-hidden text-center">
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-3 justify-content-center">
+                <div className="container overflow-hidden text-center">
+                    <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-3 justify-content-center">
                         {
                             mySkills.map((mySkill, index) => (
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2 skill" key={index}>{mySkill}</div>
+                                <div className="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2 skill" key={index}>{mySkill}</div>
                             ))
                         }
                     </div>
