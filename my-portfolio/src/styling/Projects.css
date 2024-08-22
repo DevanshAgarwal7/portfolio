@@ -1,20 +1,54 @@
 .project_component{
     background-color: rgb(30, 30, 30);
     color: white;
-    /* padding-left: 6vw; */
+    padding-left: 6vw;
     height: auto;
+}
+.projectdetail_div{
+    padding-left: 3vw;
+}
+.each_project_grid_item_header{
+    color: black;
+    background-color: yellow;
+
 }
 .project{
     transition: transform 0.3s;
-    margin-right: 10px;
-    background-color: red;
+    margin-right: 7vw;
+    /* background-color: red; */
     border-radius: 1rem;
     border: 3px solid white;
     color: black;
-    font-weight: 700;
-    text-align: center;
     overflow: hidden;
 }
 .project:hover {
     transform: scale(1.06);
+    cursor: zoom-in;
+}
+.each_project_name{
+    font-weight: 700;
+}
+.each_project_grid_item_project_technology{
+    margin-top: -4%;
+}
+.each_project_grid_item_project_link{
+    margin-top: -3%;
+}
+.each_project_grid_item_body{
+    background-color: rgb(30, 30, 30);
+}
+.each_project_grid_item_each_projectDescription_listitem{
+    color: white;
+}
+.each_project_grid_item_each_projectDescription_listitem::marker{
+    color: yellow;
+}
+
+@media (max-width: 992px){
+    .each_project_grid_item_project_technology{
+        margin-top: -3%;
+    }
+    .each_project_grid_item_project_link{
+        margin-top: -3%;
+    }
 }
