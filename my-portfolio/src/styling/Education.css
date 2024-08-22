@@ -9,16 +9,23 @@
     width: 93%;
     margin-bottom: 1vh;
 }
-.each_education_div{
+/* This div previously has card bootstrap css which I remove card from HTML and write border and border-radius */
+.each_education_div{ 
     transition: transform 0.3s;
     margin-bottom: 2vw;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border: 3px solid white;
 }
 .each_education_div:hover{
     transform: scale(1.06);
     cursor: zoom-in;
 }
+/* This div previously has card-header bootstrap css which I remove card from HTML and write border and border-radius */
 .each_education_header{
     border-bottom: 0.01rem solid white;
+    background-color: yellow;
+    color: black;
 }
 .each_education_header_flex{
     display: flex;

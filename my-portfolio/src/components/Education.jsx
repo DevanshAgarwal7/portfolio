@@ -39,8 +39,8 @@ function Education() {
                     {Object.keys(educationDetails).map((key, index) => {
                         const experience = educationDetails[key];
                         return (
-                            <div key={index} className="card each_education_div">
-                                <div className="card-header each_education_header">
+                            <div key={index} className="each_education_div">
+                                <div className="each_education_header">
                                     <div className=" each_education_header_flex">
                                         <div className="p-2 mx-5"><h6>{experience.collegeOrSchoolName}</h6></div>
                                         <div className="p-2 mx-5 each_education_timeline"><h6>{experience.timeline}</h6></div>
