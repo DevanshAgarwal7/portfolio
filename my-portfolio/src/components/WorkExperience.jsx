@@ -38,8 +38,8 @@ function WorkExperience() {
                     {Object.keys(workExperienceDetails).map((key, index) => {
                         const experience = workExperienceDetails[key];
                         return (
-                            <div key={index} className="card each_workexperience_div">
-                                <div className="card-header each_workexperience_header">
+                            <div key={index} className="each_workexperience_div">
+                                <div className="each_workexperience_header">
                                     <div className=" each_workexperience_header_flex">
                                         <div className="p-2 mx-5"><h6>{experience.company}</h6></div>
                                         <div className="p-2 mx-5 each_work_experience_timeline"><h6>{experience.timeline}</h6></div>
