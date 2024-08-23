@@ -32,12 +32,15 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: yellow;
 }
 .each_education_department{
-    margin-top: -20px;
+    background-color: yellow;
+    margin-top: -14px;
 }
 .each_education_result{
-    margin-top: -20px;
+    background-color: yellow;
+    margin-top: -14px;
 }
 .each_education_body{
     padding-left: 5%;
@@ -62,6 +65,9 @@
     .each_education_header_flex{
         flex-direction: column;
         align-items: start;
+    }
+    .each_education_result{
+        margin-top: -10px;
     }
     .each_education_timeline{
         margin-top: -15px;  
