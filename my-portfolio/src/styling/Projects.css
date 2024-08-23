@@ -6,6 +6,7 @@
 }
 .projectdetail_div{
     padding-left: 3vw;
+    margin-top: 4vh;
 }
 .each_project_grid_item_header{
     color: black;
@@ -26,12 +27,15 @@
     cursor: zoom-in;
 }
 .each_project_name{
+    background-color: yellow;
     font-weight: 700;
 }
 .each_project_grid_item_project_technology{
+    background-color: yellow;
     margin-top: -4%;
 }
 .each_project_grid_item_project_link{
+    background-color: yellow;
     margin-top: -3%;
 }
 .each_project_grid_item_body{
