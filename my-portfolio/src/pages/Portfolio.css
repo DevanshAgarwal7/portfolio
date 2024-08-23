@@ -1,0 +1,16 @@
+.portfolio-page{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+.custom-navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the navbar spans the full width */
+    z-index: 1000; /* Make sure it stays on top of other elements */
+}
+.scrollspy-example div[class="scrollspyExperience"] {
+    scroll-margin-top: 80px; /* Adjust this value based on your navbar's height */
+}
