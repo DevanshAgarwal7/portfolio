@@ -33,7 +33,7 @@ function WorkExperience() {
     return (
         <React.Fragment>
             <div className="workexperience_Component">
-                <h2 style={{color: "yellow"}}>Work Experience<Cursor /></h2>
+                <h2>Work Experience<Cursor /></h2>
                 <div className="workexperience_div">
                     {Object.keys(workExperienceDetails).map((key, index) => {
                         const experience = workExperienceDetails[key];

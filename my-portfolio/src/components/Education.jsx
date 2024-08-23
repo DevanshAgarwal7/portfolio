@@ -34,7 +34,7 @@ function Education() {
     return ( 
         <React.Fragment>
             <div className="education_component">
-                <h2 style={{color: "yellow"}}>Education<Cursor /></h2>
+                <h2>Education<Cursor /></h2>
                 <div className="education_div">
                     {Object.keys(educationDetails).map((key, index) => {
                         const experience = educationDetails[key];

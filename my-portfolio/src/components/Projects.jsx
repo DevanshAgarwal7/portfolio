@@ -50,7 +50,7 @@ function Projects() {
     return (
         <React.Fragment>
             <div className="project_component">
-                <h2 style={{ color: "yellow" }}>Projects<Cursor /></h2>
+                <h2>Projects<Cursor /></h2>
                 <div className="projectdetail_div">
                     <div className="row row-cols-2 gy-5 container-fluid ">
                         {
