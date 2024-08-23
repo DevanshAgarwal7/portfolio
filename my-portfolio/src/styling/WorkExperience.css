@@ -30,9 +30,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: yellow;
 }
 .each_work_experience_designation{
-    margin-top: -20px; 
+    background-color: yellow;
+    margin-top: -12px; 
 }
 .each_workexperience_body{
     padding-left: 5%;
@@ -58,6 +60,9 @@
         flex-direction: column;
         align-items: start;
         margin-bottom: 0px;
+    }
+    .each_work_experience_designation{
+        margin-top: -10px;
     }
     .each_work_experience_timeline{
         margin-top: -15px;  

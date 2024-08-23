@@ -37,7 +37,7 @@ function Portfolio() {
                             </li>
                         </ul>
                     </nav>
-                    <div data-bs-spy="scroll" data-bs-target="#portfolio-navbar" data-bs-root-margin="100px 0px 0px 0px" data-bs-smooth-scroll="true" className="scrollspy-navbar bg-body-tertiary" tabindex="0">
+                    <div data-bs-spy="scroll" data-bs-target="#portfolio-navbar" data-bs-root-margin="100px 0px 0px 0px" data-bs-smooth-scroll="true" className="scrollspy-navbar bg-body-tertiary" tabIndex="0">
                         <div className="porfolio-components">
                             <div id="scrollspyHeadingHome">
                                 <Introduction />
