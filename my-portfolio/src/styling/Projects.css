@@ -29,14 +29,16 @@
 .each_project_name{
     background-color: yellow;
     font-weight: 700;
+    text-align: center;
 }
 .each_project_grid_item_project_technology{
     background-color: yellow;
-    margin-top: -4%;
+    margin-top: -3%;
+    text-align: center;
 }
 .each_project_grid_item_project_link{
     background-color: yellow;
-    margin-top: -3%;
+    margin-top: -2%;
 }
 .each_project_grid_item_body{
     background-color: rgb(30, 30, 30);

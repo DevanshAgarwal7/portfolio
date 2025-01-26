@@ -5,7 +5,7 @@ import { Cursor } from "react-simple-typewriter";
 function Projects() {
     const projectsDetail = {
         project1: {
-            projectName: "E-Banka",
+            projectName: "E-Banka Web Application",
             projectTechnology: "React.js, Spring Boot, Bootstrap, GIT, MySQL",
             projectLink: "Github",
             projectDescription: [
@@ -37,7 +37,7 @@ function Projects() {
         },
         project4: {
             projectName: "Product Community Web Application",
-            projectTechnology: "Angular, SCSS, Spring Boot, GIT, JSON, MySQL",
+            projectTechnology: "Angular, Bootstrap, SCSS, Spring Boot, GIT, JSON, MySQL",
             projectLink: "GitHub",
             projectDescription: [
                 "Developed a Web App named Online Store where a customer can visit, register themselves, browse products, and post reviews on products. All the products are shown with their average rating and posted reviews. A customer can post a review on any number of products. The posted reviews are initially in pending state and can only be approved once the admin verify them and marked them approved. Only approved reviews are visible on the products review section.",
