@@ -24,7 +24,7 @@
 /* This div previously has card-header bootstrap css which I remove card from HTML and write border and border-radius */
 .each_education_header{
     border-bottom: 0.01rem solid white;
-    background-color: yellow;
+    background-color: rgb(255, 204, 0);
     color: black;
 }
 .each_education_header_flex{
@@ -32,14 +32,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: yellow;
+    background-color: rgb(255, 204, 0);
 }
 .each_education_department{
-    background-color: yellow;
+    background-color: rgb(255, 204, 0);
     margin-top: -14px;
 }
 .each_education_result{
-    background-color: yellow;
+    background-color: rgb(255, 204, 0);
     margin-top: -14px;
 }
 .each_education_body{
@@ -51,7 +51,7 @@
     color: white;
 }
 .each_education_each_description_listitem::marker{
-    color: yellow;
+    color: rgb(255, 204, 0);
 }
 
 @media (max-width: 540px){

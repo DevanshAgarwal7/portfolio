@@ -7,7 +7,7 @@
 .skill{
     transition: transform 0.3s;
     margin-right: 10px;
-    background-color: yellow;
+    background-color: rgb(255, 204, 0);
     border-radius: 1rem;
     border: 3px solid white;
     color: black;

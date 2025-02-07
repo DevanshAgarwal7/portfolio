@@ -41,10 +41,10 @@ function WorkExperience() {
                             <div key={index} className="each_workexperience_div">
                                 <div className="each_workexperience_header">
                                     <div className=" each_workexperience_header_flex">
-                                        <div className="p-2 mx-5" style={{backgroundColor: "yellow"}}><h6  style={{backgroundColor: "yellow"}}>{experience.company}</h6></div>
-                                        <div className="p-2 mx-5 each_work_experience_timeline" style={{backgroundColor: "yellow"}}><h6 style={{backgroundColor: "yellow"}}>{experience.timeline}</h6></div>
+                                        <div className="p-2 mx-5" style={{backgroundColor: "rgb(255, 204, 0)"}}><h6  style={{backgroundColor: "rgb(255, 204, 0)"}}>{experience.company}</h6></div>
+                                        <div className="p-2 mx-5 each_work_experience_timeline" style={{backgroundColor: "rgb(255, 204, 0)"}}><h6 style={{backgroundColor: "rgb(255, 204, 0)"}}>{experience.timeline}</h6></div>
                                     </div>
-                                    <div className="d-flex flex-row mb-1 justify-content-between align-items-center flex-wrap" style={{backgroundColor: "yellow"}}>
+                                    <div className="d-flex flex-row mb-1 justify-content-between align-items-center flex-wrap" style={{backgroundColor: "rgb(255, 204, 0)"}}>
                                         <div className="p-2 mx-5 each_work_experience_designation">{experience.designation}</div>
                                         <div className="p-2 mx-5 each_work_experience_designation">{experience.workPlace}</div>
                                     </div>

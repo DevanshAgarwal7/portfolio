@@ -18,7 +18,7 @@
     right: 0;
     width: 2px; /* Width of the right border */
     height: 80%; /* Height of the right border, set to 80% */
-    background-color: yellow; /* Same color as the border */
+    background-color: rgb(255, 204, 0) /* Same color as the border */
 }
 .footer_flex_item_1_form{
     width: 100%;

@@ -18,7 +18,7 @@ function Introduction() {
                         <div className="card" style={{ border: "none" }}>
                             <div className="card-body intro-content" style={{ backgroundColor: "rgb(30, 30, 30)", color: "white" }}>
                                 <span className="hello">Hello,</span>
-                                <span className="intro-text">I'm <span className="intro-name">Devansh Agarwal</span><br /><span className="intro-role">I'm <span style={{ color: "yellow" }}>{myRole}</span></span><Cursor /></span>
+                                <span className="intro-text">I&apos;m <span className="intro-name">Devansh Agarwal</span><br /><span className="intro-role">I&apos;m <span style={{ color: "rgb(255, 204, 0)" }}>{myRole}</span></span><Cursor /></span>
                                 <p className="card-text intro-summary">Logical and organized individual with a robust foundation in Software
                                     Engineering. Demonstrated versatility in playing key roles as a proactive
                                     developer, contributing to the enhancement of software quality and functionality.
@@ -29,7 +29,7 @@ function Introduction() {
                         </div>
                     </div>
                     <div className="p-2">
-                        <div className="card" style={{ border: "none", backgroundColor: "rgb(30, 30, 30)", color: "white" }}>
+                        <div className="profileCard" style={{ border: "none", backgroundColor: "rgb(30, 30, 30)", color: "white" }}>
                             <img src={profilePic} className="card-img-center profile-pic" alt="Profile Pic" />
                         </div>
                     </div>

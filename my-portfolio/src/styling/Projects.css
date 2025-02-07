@@ -10,7 +10,7 @@
 }
 .each_project_grid_item_header{
     color: black;
-    background-color: yellow;
+    background-color: rgb(255, 204, 0);
 
 }
 .project{
@@ -27,17 +27,17 @@
     cursor: zoom-in;
 }
 .each_project_name{
-    background-color: yellow;
+    background-color: rgb(255, 204, 0);
     font-weight: 700;
     text-align: center;
 }
 .each_project_grid_item_project_technology{
-    background-color: yellow;
+    background-color: rgb(255, 204, 0);
     margin-top: -3%;
     text-align: center;
 }
 .each_project_grid_item_project_link{
-    background-color: yellow;
+    background-color: rgb(255, 204, 0);
     margin-top: -2%;
 }
 .each_project_grid_item_body{
@@ -47,7 +47,7 @@
     color: white;
 }
 .each_project_grid_item_each_projectDescription_listitem::marker{
-    color: yellow;
+    color: rgb(255, 204, 0);
 }
 
 @media (max-width: 992px){

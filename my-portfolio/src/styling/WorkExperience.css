@@ -22,7 +22,7 @@
 }
 /* This div previously has card-header bootstrap css which I remove card-header from HTML and added background-color and color in its css */
 .each_workexperience_header{
-    background-color: yellow;
+    background-color: rgb(255, 204, 0);
     color: black;
 }
 .each_workexperience_header_flex{
@@ -30,10 +30,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: yellow;
+    background-color: rgb(255, 204, 0);
 }
 .each_work_experience_designation{
-    background-color: yellow;
+    background-color: rgb(255, 204, 0);
     margin-top: -12px; 
 }
 .each_workexperience_body{
@@ -45,7 +45,7 @@
     color: white;
 }
 .each_work_experience_each_description_listitem::marker{
-    color: yellow;
+    color: rgb(255, 204, 0);
 }
 
 @media (max-width: 540px){

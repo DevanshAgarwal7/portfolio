@@ -3,7 +3,7 @@ import '../styling/Skills.css';
 import { Cursor } from "react-simple-typewriter";
 
 function Skills() {
-    const mySkills = ["Java", "Spring Boot", "Spring", "Hibernate", "JUnit", "Data Structures",  "OOPS", "AWS", "Microservices", "Microfrontends", "Docker", "GIT", "Angular", "React.js", "Node.js", "HTML", "CSS", "Javascript", "MYSQL", "NoSQL"];
+    const mySkills = ["Java", "Liferay DXP", "Spring Boot", "Spring", "JUnit", "Data Structures",  "OOPS", "AWS", "Microservices", "Microfrontends", "Docker", "GIT", "Angular", "React.js", "HTML", "CSS", "Javascript", "MYSQL"];
     return (
         <React.Fragment>
             <div className="skills_component">
